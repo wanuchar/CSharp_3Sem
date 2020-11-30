@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WatcherOptions>
+  <StorageOptions>
+    <SourceDirectory>/Users/user/Documents/ISP/3 sem/Lab2/SourceDirectory</SourceDirectory>
+    <TargetDirectory>/Users/user/Documents/ISP/3 sem/Lab2/TargetDirectory</TargetDirectory>
+  </StorageOptions>
+  <ArchiveOptions>
+    <ArchiveName>WatcherLab3.zip</ArchiveName>
+  </ArchiveOptions>
+  <CryptOptions>
+    <CryptKey>key123</CryptKey>
+  </CryptOptions>
+</WatcherOptions>
