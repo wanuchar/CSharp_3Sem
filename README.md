@@ -1,6 +1,6 @@
 # CSharp_3Sem
 
-##Lab3
+## Lab3
 1. Программа состоит из двух частей: FileWatcher, ConfigurationProvider.
 2. FileWatcher  отвечает за отслеживание состояния SourceDirectory - 2 лабораторная
 3. ConfigurationProvider состоит из нескольких компонентов: 
