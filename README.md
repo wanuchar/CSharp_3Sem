@@ -26,4 +26,4 @@
 
 5. Файлы хранятся в специальной папке Person. Далее они пересылаются в папку SourceDir, где всю работу на себя берет Service1.
 
-![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/6.png)
+![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/6.jpg)
