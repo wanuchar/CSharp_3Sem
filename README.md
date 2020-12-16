@@ -1,12 +1,27 @@
 # CSharp_3Sem
 
-## Lab3
-1. Программа состоит из двух частей: FileWatcher, ConfigurationProvider.
-2. FileWatcher  отвечает за отслеживание состояния SourceDirectory - 2 лабораторная
-3. ConfigurationProvider состоит из нескольких компонентов: 
-4. IConfigurationParser - интерфейс нашего парсера, 
-5. OptionManager - проверяет наличие файлов с расширением .xml и .json по выбранному пути и если такой существует,
-запоминает путь к нему, так же обладает методои GetOptions, который в свою очередь обеспечивает создание следуюшего компонента Provider и возврат парсированных конфигураций. 
-6. Provider обеспечивает выбор конфигурации нашего парсера: .json или .xml
-7. Json(Xml)Parser парсируют свои конфигурации
-8. Парсеры являются универсальными, т.е. изменение файлов настроек не повлечет за собой изменения парсера. Каждый парсер наследуется от интерфейса IConfigurationParser. Все исключительные ситуации обрабатываются. При их возникновении соответствующая запись появляется в файле errorFile.txt.
+## Lab4
+### Реализация службы DataManager.
+
+1. Программа состоит из двух частей: самого DataManager и ConfigurationProvider.
+2. ConfigurationProvider обращается к файлам xml и json и берет их них информаци о строке подключения к базам данных ApplicationInsights и AdventureWorks2019 и путь к SourceDirectory и TargetDirectory.
+3. Далее создаётся объект класса DBApplicationInsights, который отвечает за логирование.
+Таблица выглядит следующим образом:
+
+![Image alt](https://github.com/{wanuchar}/{CSharp_3Sem}/raw/{Lab4}/{Screenshots}/1.png)
+
+Хранимые процедуры AddAction и ClearAction выглядят следующим образом:
+
+Screenshot
+
+Screenshot
+
+4. Далее все действия предаставляются DataManager. Он подключается к базе AdventureWorks2019 с помощью класса BDAdventure и формирует xml-документ. Метод GetPerson возвращает записи из БД.
+
+Хранимые процедуры:
+
+Screenshot
+
+Screenshot
+
+5. Файлы хранятся в специальной папке Person. Далее они пересылаются в папку SourceDir, где всю работу на себя берет Service1.
