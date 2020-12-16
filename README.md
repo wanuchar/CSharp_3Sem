@@ -10,19 +10,20 @@
 
 ![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/1.png)
 
-
 Хранимые процедуры AddAction и ClearAction выглядят следующим образом:
 
-Screenshot
+![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/3.png)
 
-Screenshot
+![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/2.png)
 
 4. Далее все действия предаставляются DataManager. Он подключается к базе AdventureWorks2019 с помощью класса BDAdventure и формирует xml-документ. Метод GetPerson возвращает записи из БД.
 
 Хранимые процедуры:
 
-Screenshot
+![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/5.png)
 
-Screenshot
+![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/4.png)
 
 5. Файлы хранятся в специальной папке Person. Далее они пересылаются в папку SourceDir, где всю работу на себя берет Service1.
+
+![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/6.png)
