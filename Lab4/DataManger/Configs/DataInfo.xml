@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<DataOptions>
+  <ConnectionString>Data Source = YAN; Initial Catalog = AdventureWorks2019; Integrated Security = True</ConnectionString>
+  <SourceDirectory>/Users/user/Documents/ISP/3 sem/Lab2/SourceDirectory</SourceDirectory>
+  <TargetDirectory>/Users/user/Documents/ISP/3 sem/Lab2/TargetDirectory</TargetDirectory>
+  <LoggerConnectionString>Data Source = YAN; Initial Catalog = ApplicationInsights; Integrated Security = True</LoggerConnectionString>
+</DataOptions>

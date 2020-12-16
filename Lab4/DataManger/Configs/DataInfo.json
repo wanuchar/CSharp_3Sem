@@ -1,0 +1,6 @@
+{
+  "ConnectionString": "Data Source = YAN; Initial Catalog = AdventureWorks2019; Integrated Security = True",
+  "LoggerConnectionString": "Data Source = YAN; Initial Catalog = ApplicationInsights; Integrated Security = True",
+  "SourceDirectory": "/Users/user/Documents/ISP/3 sem/Lab2/SourceDirectory",
+  "TargetDirectory": "/Users/user/Documents/ISP/3 sem/Lab2/TargetDirectory"
+}
