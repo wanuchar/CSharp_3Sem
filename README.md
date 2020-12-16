@@ -8,7 +8,8 @@
 3. Далее создаётся объект класса DBApplicationInsights, который отвечает за логирование.
 Таблица выглядит следующим образом:
 
-![Image alt]/raw/{Lab4}/{Screenshots}/(1.png)
+![Image alt](https://github.com/wanuchar/CSharp_3Sem/blob/main/Lab4/Screenshots/1.png)
+
 
 Хранимые процедуры AddAction и ClearAction выглядят следующим образом:
 
